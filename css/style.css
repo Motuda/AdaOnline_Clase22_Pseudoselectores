@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2{
+    font-family: 'Modak', cursive;
+}
+h1{
+    display: block;
+    font-size: 60px;
+
+}
+h2{
+    display: block;
+    font-size: 30px;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/isaiah-mcclean-j9PpIy_x4EE-unsplash.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+header{
+    width: 300px;
+    height: 100vh;
+    padding: 30px 20px;
+    background-color: rgba(220,20,60,.7);
+    box-sizing: border-box;
+    box-shadow: 0 0 10px #ccc;
+    display: flex;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 2;
+    /* justify-content: center; */
+    }
+.side{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: right; 
+}
+.side a{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-bottom: 1px solid white;
+    color: white;
+    text-decoration: none;
+    text-align: right;
+}
